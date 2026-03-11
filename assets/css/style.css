@@ -1,0 +1,24 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.card { 
+    height: 100%;
+    transition: transform 0.2s;
+}
+
+.card:hover { 
+    transform: translateY(-5px); 
+}
+
+.card-img-top { 
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.filter-btn.active { 
+    background-color: #212529; 
+    color: white; 
+}
